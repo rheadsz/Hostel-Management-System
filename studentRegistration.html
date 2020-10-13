@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="studentRegistration.css">
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <title>User Registration</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="sidebar">
+            <h2>Hostel Management System</h2>
+            <ul>
+                <li><a href="studentRegistration.html"><i class="fas fa-home"></i>User Registration</a></li>
+                <li><a href="index.php"><i class="fas fa-user"></i>User Login</a></li>
+                <li><a href="adminProfile.html"><i class="fas fa-address-card"></i>Admin Login</a></li>
+            </ul> 
+        </div>
+        <div class="main_content">
+            <div class="header">User Registration</div>  
+            <form  method="post" action="studentRegistration.php">
+              
+                <div class="container">
+                  <label for="reg_no"><b>Register Number  </b></label>
+                  <input type="tel" placeholder="Enter reg no." name="reg_no" required><br>
+              
+                  <label for="first_name"><b>First Name  </b></label>
+                  <input type="text" placeholder="Enter first name" name="first_name" required><br>
+
+                  <label for="middle_name"><b>Middle Name  </b></label>
+                  <input type="text" placeholder="Enter middle name" name="middle_name" required><br>
+
+                  <label for="last_name"><b>Last Name  </b></label>
+                  <input type="text" placeholder="Enter last name" name="last_name" required><br>
+                    <br>
+                  <label for="gender"><b>Gender </b> </label>
+                  <input type="text" placeholder="Enter gender" name="gender" required><br>
+                  <br>
+                  <label for="contact_no"><b>Contact Number  </b></label>
+                  <input type="tel" placeholder="Enter contact no." name="contact_no" required><br>
+
+                  <label for="email_id"><b>Email Id  </b></label>
+                  <input type="text" placeholder="Enter email" name="email_id" required><br>
+              
+                  <label for="password"><b>Password  </b></label>
+                  <input type="password" placeholder="Enter Password" name="password" required><br>
+
+                  <label for="retype_password"><b>Confirm Password  </b></label>
+                  <input type="password" placeholder="Re-type Password" name="retype_password" required><br>
+
+
+                
+
+              
+                  
+                  
+                </div>
+              
+                <div class="container" style="background-color:#f1f1f1">
+                    <button type="submit">Register</button>
+                  <button type="button" class="cancelbtn">Cancel</button>
+                  
+                </div>
+              </form>
+        </div>
+
+    </div> 
+    
+    
+    
+</body>
+</html>

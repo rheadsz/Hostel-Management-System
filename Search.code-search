@@ -1,0 +1,9 @@
+# Query: welcome
+# ContextLines: 1
+
+1 result - 1 file
+
+connect.php:
+  17           $_SESSION['password']=$user_email=$row['password'];
+  18:          echo"<script>window.location.href='my-profile.php'</script>";
+  19           
